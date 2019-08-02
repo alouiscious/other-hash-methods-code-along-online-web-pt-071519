@@ -9,7 +9,12 @@ require 'pry'
 # }
 
 def get_the_values(groceries)
-  groceries.values.flatten {|values| values.sort return values.first}
+  groceries.values.flatten {
+    |values| 
+    values.sort 
+    return values.sort.first
+    
+  }
   
     
 end
