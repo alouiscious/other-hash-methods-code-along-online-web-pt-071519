@@ -10,7 +10,7 @@ require 'pry'
 
 def get_the_values(groceries)
   values = groceries.values.flatten |values|
-# binding.pry
+binding.pry
   values.sort
   return values.first
 end
