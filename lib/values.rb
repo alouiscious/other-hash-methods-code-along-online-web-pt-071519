@@ -12,5 +12,5 @@ def get_the_values(groceries)
   values = groceries.values.flatten |values|
   values.sort
   return values.first
-    binding.pry
+binding.pry
 end
