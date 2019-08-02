@@ -13,5 +13,6 @@ def get_the_values(groceries)
 # binding.pry
     values.sort
     return values.first
+  end
     
 end
