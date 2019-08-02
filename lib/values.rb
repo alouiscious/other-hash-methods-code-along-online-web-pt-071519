@@ -11,7 +11,7 @@ require 'pry'
 def get_the_values(groceries)
   values = groceries.values.flatten |values|
 # binding.pry
-values.sort
+  values.sort
   return values.first
   # return groceries.values.first
 end
