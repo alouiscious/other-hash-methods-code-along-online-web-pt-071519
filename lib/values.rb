@@ -9,7 +9,7 @@ require 'pry'
 # }
 
 def get_the_values(groceries)
-  values = groceries.values.flatten {|values| values.sort}
+  values = groceries.values.flatten {|values| validates_uniqueness_of.sort}
 # binding.pry
   return values.first
   # return groceries.values.first
